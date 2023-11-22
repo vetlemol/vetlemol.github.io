@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<header>
+    <div class="Navigasjonbar">
+        <div>
+            <center class="Gruppehov" >
+                <h2 class="Gruppenavn" onclick="location.href='../Index.html'">Mentor Gruppe 7B</h2>
+            </center>
+        </div>
+        <div id="prosjekter">
+            <h2 id="prostext" onclick="location.href='../Figurer/Figurer.html'">Figurer</h2> </div>
+        </div>
+    </div>
+    <style>
+    #cont{
+        padding-left: 0;
+    }
+</style>
+</header>
+<body class="body1" onload="loadInfo()">
+    <div>
+        <h2 class="perstittel1">Joakim</h2>
+        <div class="tekst" id="beskrivelse"></div>
+        <p class="tekst" id="kreativfigurtekst">Kreative figurer:</p>  </div>
+    <div id="MathiasFitekst">
+        <p class="tekst">Figur til venstre er laget med Canvas, figur til høyre er laget i pyret</p>
+    </div>
+    <div id="MathiasFitekst">
+        <a class="tekst" href="https://github.com/Joakimbjohn/IS-114/blob/main/docs/progoblig3-figur.arr" target="_blank">Link til repository</a>
+    </div>
+    <div>
+        <canvas id="myCanvas6" width="600" height="600"> </canvas>
+    <img src="../images/JoakimFigurPyret.png" alt="Joakim sin figur laget i Pyret" width="1000" id="PyretBilde">
+</div>
+<div id="MathiasFitekst">
+    <p class="tekst">Figur laget med SVG:</p>
+</div>
+
+<svg id="cont" height="500" width="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect id="rect1" x="180" y="180" width="120" height="120" fill="lightblue" stroke="lightblue" />
+<circle id="cir1" cx="300" cy="300" r="120" stroke="lime" stroke-width="" fill="lime" />
+<circle id="cir2" cx="260" cy="260" r="80" stroke="lightblue" stroke-width="" fill="lightblue" />
+<rect id="rect2" x="220" y="220" width="60" height="60" fill="yellow" stroke="yellow" />
+</svg>
+<div class="hverpers0" id="klimapers">
+    <h2 class="perstittel1"> Klima Fotavtrykk</h2>
+    <img id="klimaBilde" src="../images/Klimafotavtrykk.png" alt="Tabell av Klima Fotavtrykk">
+    <p id="tabellKlima">Tabell av Klima Fotavtrykk</p>
+    <p id="klimatekst" class="tekst">Estimeringen av klimafotavtrykk for et individ er oppsumert i tabellen over. Her representeres energiforbruket for et individ over diverse temaer slik som bil, fly, lys m.m. i energiformen kWh.</p>
+
+</div>
+
+</body>
+<script src="../js/Medlemmer.js"></script>
+<script src="../js/Joakim.js"></script>
+
+</html>

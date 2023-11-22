@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<header>
+    <div class="Navigasjonbar">
+        <div>
+            <center class="Gruppehov" >
+                <h2 class="Gruppenavn" onclick="location.href='../Index.html'">Mentor Gruppe 7B</h2>
+            </center>
+        </div>
+        <div id="prosjekter">
+            <h2 id="prostext" onclick="location.href='../Figurer/Figurer.html'">Figurer</h2></div>
+        </div>
+    </div>
+    <style>
+    #cont{
+        padding-left: 0;
+    }
+</style>
+</header>
+<body class="body1" onload="loadInfo()">
+    <div>
+        <h2 class="perstittel1">Theodor</h2>
+        <div class="tekst" id="beskrivelse"></div>
+        <p class="tekst" id="kreativfigurtekst">Kreative figurer:</p>  </div>
+    <div id="MathiasFitekst">
+        <p class="tekst">Figur til venstre er laget med Canvas, figur til høyre er laget i pyret</p>
+    </div>
+    <div id="MathiasFitekst">
+        <a class="tekst" href="https://github.com/theodorkp/IS-114" target="_blank">Link til repository</a>
+    </div>
+    <div>
+        <canvas id="myCanvas3" width="600" height="600"> </canvas>
+    <img src="../images/PyretFigurTheodor.png" alt="Mathias sin figur laget i Pyret" width="1000" id="PyretBilde">
+</div>
+<div id="MathiasFitekst">
+<p class="tekst">Figur laget med SVG</p>
+    </div>
+<svg id="cont" height="500" width="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <circle id="cir1" cx="150" cy="75" r="50" stroke="blue" stroke-width="5" fill="#87C4FF" />
+    <circle id="cir1" cx="250" cy="75" r="50" stroke="black" stroke-width="5" fill="#87C4FF" />
+    <circle id="cir1" cx="350" cy="75" r="50" stroke="red" stroke-width="5" fill="#87C4FF" />
+    <circle id="cir1" cx="200" cy="165" r="50" stroke="yellow" stroke-width="5" fill="#87C4FF" />
+    <circle id="cir1" cx="300" cy="165" r="50" stroke="green" stroke-width="5" fill="#87C4FF" />
+</svg>
+<div class="hverpers0" id="klimapers">
+    <h2 class="perstittel1"> Klima Fotavtrykk</h2>
+    <img id="klimaBilde" src="../images/Klimafotavtrykk.png" alt="Tabell av Klima Fotavtrykk">
+    <p id="tabellKlima">Tabell av Klima Fotavtrykk</p>
+    <p id="klimatekst" class="tekst">Klimafotavtrykk er en beregning av den totale klimapåvirkining på grunn av menneskelige aktiviteter. Flyreiser og bilkjøring er aktiviteter som setter fra seg store avtrykk. </p>
+
+</div>
+
+</body>
+<script src="../js/Medlemmer.js"></script>
+<script src="../js/Theodor.js"></script>
+</html>
